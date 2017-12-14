@@ -23,8 +23,8 @@
 		2FE971E71FB92F63003B2E1E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FE971E51FB92F63003B2E1E /* Model.xcdatamodeld */; };
 		2FE971E91FB92F63003B2E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE971E81FB92F63003B2E1E /* Assets.xcassets */; };
 		2FE971EC1FB92F63003B2E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE971EA1FB92F63003B2E1E /* LaunchScreen.storyboard */; };
-		2FE971F71FB92F63003B2E1E /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE971F61FB92F63003B2E1E /* FinalProjectTests.swift */; };
-		2FE972021FB92F63003B2E1E /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE972011FB92F63003B2E1E /* FinalProjectUITests.swift */; };
+		2FE971F71FB92F63003B2E1E /* BitsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE971F61FB92F63003B2E1E /* BitsAppTests.swift */; };
+		2FE972021FB92F63003B2E1E /* BitsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE972011FB92F63003B2E1E /* BitsAppUITests.swift */; };
 		2FE972141FB93789003B2E1E /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE972131FB93789003B2E1E /* CategoryListViewController.swift */; };
 		2FE9721C1FB93D5A003B2E1E /* HabitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE9721B1FB93D5A003B2E1E /* HabitTableViewController.swift */; };
 		2FE9721F1FB93F17003B2E1E /* HabitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE9721E1FB93F17003B2E1E /* HabitService.swift */; };
@@ -59,18 +59,18 @@
 		2FA8B93B1FDA674C0063E1EF /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		2FA8B93D1FDA674C0063E1EF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		2FB0157F1FD9C36C000A9ABC /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
-		2FE971DB1FB92F62003B2E1E /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE971DB1FB92F62003B2E1E /* BitsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE971DE1FB92F62003B2E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE971E31FB92F62003B2E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FE971E61FB92F63003B2E1E /* FinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalProject.xcdatamodel; sourceTree = "<group>"; };
 		2FE971E81FB92F63003B2E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE971EB1FB92F63003B2E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE971ED1FB92F63003B2E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FE971F21FB92F63003B2E1E /* FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FE971F61FB92F63003B2E1E /* FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectTests.swift; sourceTree = "<group>"; };
+		2FE971F21FB92F63003B2E1E /* BitsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE971F61FB92F63003B2E1E /* BitsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsAppTests.swift; sourceTree = "<group>"; };
 		2FE971F81FB92F63003B2E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FE971FD1FB92F63003B2E1E /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FE972011FB92F63003B2E1E /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
+		2FE971FD1FB92F63003B2E1E /* BitsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE972011FB92F63003B2E1E /* BitsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsAppUITests.swift; sourceTree = "<group>"; };
 		2FE972031FB92F63003B2E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FE972131FB93789003B2E1E /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 		2FE9721B1FB93D5A003B2E1E /* HabitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewController.swift; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 		2FE971D21FB92F62003B2E1E = {
 			isa = PBXGroup;
 			children = (
-				2FE971DD1FB92F62003B2E1E /* FinalProject */,
-				2FE971F51FB92F63003B2E1E /* FinalProjectTests */,
-				2FE972001FB92F63003B2E1E /* FinalProjectUITests */,
+				2FE971DD1FB92F62003B2E1E /* BitsApp */,
+				2FE971F51FB92F63003B2E1E /* BitsAppTests */,
+				2FE972001FB92F63003B2E1E /* BitsAppUITests */,
 				2FE971DC1FB92F62003B2E1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,39 +115,39 @@
 		2FE971DC1FB92F62003B2E1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FE971DB1FB92F62003B2E1E /* FinalProject.app */,
-				2FE971F21FB92F63003B2E1E /* FinalProjectTests.xctest */,
-				2FE971FD1FB92F63003B2E1E /* FinalProjectUITests.xctest */,
+				2FE971DB1FB92F62003B2E1E /* BitsApp.app */,
+				2FE971F21FB92F63003B2E1E /* BitsAppTests.xctest */,
+				2FE971FD1FB92F63003B2E1E /* BitsAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FE971DD1FB92F62003B2E1E /* FinalProject */ = {
+		2FE971DD1FB92F62003B2E1E /* BitsApp */ = {
 			isa = PBXGroup;
 			children = (
 				2FE972181FB93BCE003B2E1E /* Resources */,
 				2FE9720F1FB9374E003B2E1E /* Source */,
 				2FE971ED1FB92F63003B2E1E /* Info.plist */,
 			);
-			path = FinalProject;
+			path = BitsApp;
 			sourceTree = "<group>";
 		};
-		2FE971F51FB92F63003B2E1E /* FinalProjectTests */ = {
+		2FE971F51FB92F63003B2E1E /* BitsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				2FE971F61FB92F63003B2E1E /* FinalProjectTests.swift */,
+				2FE971F61FB92F63003B2E1E /* BitsAppTests.swift */,
 				2FE971F81FB92F63003B2E1E /* Info.plist */,
 			);
-			path = FinalProjectTests;
+			path = BitsAppTests;
 			sourceTree = "<group>";
 		};
-		2FE972001FB92F63003B2E1E /* FinalProjectUITests */ = {
+		2FE972001FB92F63003B2E1E /* BitsAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2FE972011FB92F63003B2E1E /* FinalProjectUITests.swift */,
+				2FE972011FB92F63003B2E1E /* BitsAppUITests.swift */,
 				2FE972031FB92F63003B2E1E /* Info.plist */,
 			);
-			path = FinalProjectUITests;
+			path = BitsAppUITests;
 			sourceTree = "<group>";
 		};
 		2FE9720F1FB9374E003B2E1E /* Source */ = {
@@ -218,9 +218,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FE971DA1FB92F62003B2E1E /* FinalProject */ = {
+		2FE971DA1FB92F62003B2E1E /* BitsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FE972061FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "FinalProject" */;
+			buildConfigurationList = 2FE972061FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "BitsApp" */;
 			buildPhases = (
 				2FE971D71FB92F62003B2E1E /* Sources */,
 				2FE971D81FB92F62003B2E1E /* Frameworks */,
@@ -230,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = FinalProject;
+			name = BitsApp;
 			productName = FinalProject;
-			productReference = 2FE971DB1FB92F62003B2E1E /* FinalProject.app */;
+			productReference = 2FE971DB1FB92F62003B2E1E /* BitsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FE971F11FB92F63003B2E1E /* FinalProjectTests */ = {
+		2FE971F11FB92F63003B2E1E /* BitsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FE972091FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "FinalProjectTests" */;
+			buildConfigurationList = 2FE972091FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "BitsAppTests" */;
 			buildPhases = (
 				2FE971EE1FB92F63003B2E1E /* Sources */,
 				2FE971EF1FB92F63003B2E1E /* Frameworks */,
@@ -248,14 +248,14 @@
 			dependencies = (
 				2FE971F41FB92F63003B2E1E /* PBXTargetDependency */,
 			);
-			name = FinalProjectTests;
+			name = BitsAppTests;
 			productName = FinalProjectTests;
-			productReference = 2FE971F21FB92F63003B2E1E /* FinalProjectTests.xctest */;
+			productReference = 2FE971F21FB92F63003B2E1E /* BitsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2FE971FC1FB92F63003B2E1E /* FinalProjectUITests */ = {
+		2FE971FC1FB92F63003B2E1E /* BitsAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FE9720C1FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */;
+			buildConfigurationList = 2FE9720C1FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "BitsAppUITests" */;
 			buildPhases = (
 				2FE971F91FB92F63003B2E1E /* Sources */,
 				2FE971FA1FB92F63003B2E1E /* Frameworks */,
@@ -266,9 +266,9 @@
 			dependencies = (
 				2FE971FF1FB92F63003B2E1E /* PBXTargetDependency */,
 			);
-			name = FinalProjectUITests;
+			name = BitsAppUITests;
 			productName = FinalProjectUITests;
-			productReference = 2FE971FD1FB92F63003B2E1E /* FinalProjectUITests.xctest */;
+			productReference = 2FE971FD1FB92F63003B2E1E /* BitsAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +297,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FE971D61FB92F62003B2E1E /* Build configuration list for PBXProject "FinalProject" */;
+			buildConfigurationList = 2FE971D61FB92F62003B2E1E /* Build configuration list for PBXProject "BitsApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -310,9 +310,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FE971DA1FB92F62003B2E1E /* FinalProject */,
-				2FE971F11FB92F63003B2E1E /* FinalProjectTests */,
-				2FE971FC1FB92F63003B2E1E /* FinalProjectUITests */,
+				2FE971DA1FB92F62003B2E1E /* BitsApp */,
+				2FE971F11FB92F63003B2E1E /* BitsAppTests */,
+				2FE971FC1FB92F63003B2E1E /* BitsAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -372,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE971F71FB92F63003B2E1E /* FinalProjectTests.swift in Sources */,
+				2FE971F71FB92F63003B2E1E /* BitsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE972021FB92F63003B2E1E /* FinalProjectUITests.swift in Sources */,
+				2FE972021FB92F63003B2E1E /* BitsAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +389,12 @@
 /* Begin PBXTargetDependency section */
 		2FE971F41FB92F63003B2E1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FE971DA1FB92F62003B2E1E /* FinalProject */;
+			target = 2FE971DA1FB92F62003B2E1E /* BitsApp */;
 			targetProxy = 2FE971F31FB92F63003B2E1E /* PBXContainerItemProxy */;
 		};
 		2FE971FF1FB92F63003B2E1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FE971DA1FB92F62003B2E1E /* FinalProject */;
+			target = 2FE971DA1FB92F62003B2E1E /* BitsApp */;
 			targetProxy = 2FE971FE1FB92F63003B2E1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -532,9 +532,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4AK8MK9885;
-				INFOPLIST_FILE = FinalProject/Info.plist;
+				INFOPLIST_FILE = BitsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cis399.FinalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = cis399.BitsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,9 +547,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4AK8MK9885;
-				INFOPLIST_FILE = FinalProject/Info.plist;
+				INFOPLIST_FILE = BitsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cis399.FinalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = cis399.BitsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -562,13 +562,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FinalProjectTests/Info.plist;
+				DEVELOPMENT_TEAM = 4AK8MK9885;
+				INFOPLIST_FILE = BitsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cis399.FinalProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cis399.BitsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProject.app/FinalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitsApp.app/BitsApp";
 			};
 			name = Debug;
 		};
@@ -578,13 +579,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FinalProjectTests/Info.plist;
+				DEVELOPMENT_TEAM = 4AK8MK9885;
+				INFOPLIST_FILE = BitsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cis399.FinalProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cis399.BitsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProject.app/FinalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitsApp.app/BitsApp";
 			};
 			name = Release;
 		};
@@ -593,13 +595,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FinalProjectUITests/Info.plist;
+				DEVELOPMENT_TEAM = 4AK8MK9885;
+				INFOPLIST_FILE = BitsAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cis399.FinalProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cis399.BitsAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FinalProject;
+				TEST_TARGET_NAME = BitsApp;
 			};
 			name = Debug;
 		};
@@ -608,20 +612,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FinalProjectUITests/Info.plist;
+				DEVELOPMENT_TEAM = 4AK8MK9885;
+				INFOPLIST_FILE = BitsAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cis399.FinalProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cis399.BitsAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FinalProject;
+				TEST_TARGET_NAME = BitsApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FE971D61FB92F62003B2E1E /* Build configuration list for PBXProject "FinalProject" */ = {
+		2FE971D61FB92F62003B2E1E /* Build configuration list for PBXProject "BitsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FE972041FB92F63003B2E1E /* Debug */,
@@ -630,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FE972061FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "FinalProject" */ = {
+		2FE972061FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "BitsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FE972071FB92F63003B2E1E /* Debug */,
@@ -639,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FE972091FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "FinalProjectTests" */ = {
+		2FE972091FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "BitsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FE9720A1FB92F63003B2E1E /* Debug */,
@@ -648,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FE9720C1FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */ = {
+		2FE9720C1FB92F63003B2E1E /* Build configuration list for PBXNativeTarget "BitsAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FE9720D1FB92F63003B2E1E /* Debug */,

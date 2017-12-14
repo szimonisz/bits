@@ -40,7 +40,7 @@
         <!--Categories-->
         <scene sceneID="EBq-Lp-6TG">
             <objects>
-                <viewController id="9TL-dZ-eJe" customClass="CategoryListViewController" customModule="FinalProject" sceneMemberID="viewController">
+                <viewController id="9TL-dZ-eJe" customClass="CategoryListViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8N7-TX-zIz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +106,7 @@
         <!--Habit-->
         <scene sceneID="35a-tk-3yT">
             <objects>
-                <viewController id="K9M-tW-gXc" customClass="HabitListViewController" customModule="FinalProject" sceneMemberID="viewController">
+                <viewController id="K9M-tW-gXc" customClass="HabitListViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uOo-Vk-xE0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,7 +115,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HabitCell" rowHeight="90" id="4Sm-fP-LDn" customClass="HabitCell" customModule="FinalProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HabitCell" rowHeight="90" id="4Sm-fP-LDn" customClass="HabitCell" customModule="BitsApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Sm-fP-LDn" id="Maw-md-JCv">
@@ -203,13 +203,13 @@
         <!--Detail Habit View-->
         <scene sceneID="vFl-ZI-xFw">
             <objects>
-                <viewController id="rDM-NX-h8G" customClass="DetailHabitViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rDM-NX-h8G" customClass="DetailHabitViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tGA-qO-KQ2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Current Streak:" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffQ-Os-Gmq">
-                                <rect key="frame" x="133.33333333333337" y="214" width="147.66666666666663" height="23.666666666666657"/>
+                                <rect key="frame" x="133.33333333333337" y="234" width="147.66666666666663" height="23.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="46"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -224,7 +224,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="DescriptionLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kwM-gW-UWf">
-                                <rect key="frame" x="154.33333333333334" y="81.666666666666657" width="105.66666666666666" height="18.333333333333329"/>
+                                <rect key="frame" x="154.33333333333334" y="101.66666666666667" width="105.66666666666666" height="18.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -239,7 +239,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="TypeLabel" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yM-BQ-x6I">
-                                <rect key="frame" x="175" y="163.66666666666666" width="64.333333333333314" height="18.333333333333343"/>
+                                <rect key="frame" x="175" y="183.66666666666666" width="64.333333333333314" height="18.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -254,7 +254,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="StreakLabel" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RS-c9-4M8">
-                                <rect key="frame" x="169.66666666666666" y="245.66666666666669" width="75" height="18.333333333333314"/>
+                                <rect key="frame" x="169.66666666666666" y="265.66666666666669" width="75" height="18.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -269,7 +269,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qu-vJ-BDU">
-                                <rect key="frame" x="8" y="444" width="398" height="31"/>
+                                <rect key="frame" x="8" y="464" width="398" height="31"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <state key="normal" title="View Highlight Reel"/>
                                 <variation key="heightClass=compact-widthClass=compact">
@@ -286,7 +286,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gq-6a-8Nc">
-                                <rect key="frame" x="8" y="479" width="398" height="31.666666666666686"/>
+                                <rect key="frame" x="8" y="499.00000000000006" width="398" height="31.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <state key="normal" title="Share Your Streak!"/>
                                 <variation key="heightClass=compact-widthClass=compact">
@@ -303,7 +303,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="LastCompletedLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIe-Qo-7rp">
-                                <rect key="frame" x="8" y="327.66666666666669" width="398" height="18.333333333333314"/>
+                                <rect key="frame" x="8" y="347.66666666666669" width="398" height="18.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -318,7 +318,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Description:" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8E-f9-fEm">
-                                <rect key="frame" x="150" y="50" width="114" height="23.666666666666671"/>
+                                <rect key="frame" x="150" y="70" width="114" height="23.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="46"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -333,7 +333,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quM-ia-mu2">
-                                <rect key="frame" x="180.66666666666666" y="132" width="53" height="23.666666666666657"/>
+                                <rect key="frame" x="180.66666666666666" y="152" width="53" height="23.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="46"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -348,7 +348,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Last Completed:" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blE-fE-tJP">
-                                <rect key="frame" x="130" y="296" width="154.33333333333337" height="23.666666666666686"/>
+                                <rect key="frame" x="130" y="316" width="154.33333333333337" height="23.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -363,7 +363,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rjn-8O-dNf">
-                                <rect key="frame" x="8" y="409" width="398" height="31"/>
+                                <rect key="frame" x="8" y="429" width="398" height="31"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <state key="normal" title="Upload Highlight Image"/>
                                 <variation key="heightClass=compact-widthClass=compact">
@@ -441,16 +441,16 @@
         <!--Upload Highlight Image View Controller-->
         <scene sceneID="nEw-cw-Lba">
             <objects>
-                <viewController id="MNs-2T-dJV" customClass="UploadHighlightImageViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MNs-2T-dJV" customClass="UploadHighlightImageViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1VP-2a-Tcb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bvX-cZ-McK">
-                                <rect key="frame" x="8" y="8" width="398" height="503"/>
+                                <rect key="frame" x="8" y="28" width="398" height="547"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plr-Ls-Tfl">
-                                <rect key="frame" x="151.66666666666666" y="519" width="110.99999999999997" height="35"/>
+                                <rect key="frame" x="151.66666666666666" y="583" width="110.99999999999997" height="35"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <state key="normal" title="Open Camera"/>
                                 <connections>
@@ -458,7 +458,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lv7-Qm-2Xi">
-                                <rect key="frame" x="130" y="562" width="154" height="35"/>
+                                <rect key="frame" x="130" y="626" width="154" height="35"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <state key="normal" title="Open Photo Library">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -468,7 +468,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdY-Uv-U0l">
-                                <rect key="frame" x="137" y="605" width="140" height="35"/>
+                                <rect key="frame" x="137" y="669" width="140" height="35"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <state key="normal" title="Save to Highlights"/>
                                 <connections>
@@ -504,13 +504,13 @@
         <!--Highlight Reel Collection View Controller-->
         <scene sceneID="QiK-HH-WrX">
             <objects>
-                <viewController id="9Ur-x2-iEz" customClass="HighlightReelCollectionViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Ur-x2-iEz" customClass="HighlightReelCollectionViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PMQ-zN-jgZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4Cj-ro-l4d">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9mx-7S-DOF">
                                     <size key="itemSize" width="100" height="150"/>
@@ -519,7 +519,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" reuseIdentifier="HighlightImageCell" id="fUn-YZ-yeK" customClass="HighlightImageCell" customModule="FinalProject" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" reuseIdentifier="HighlightImageCell" id="fUn-YZ-yeK" customClass="HighlightImageCell" customModule="BitsApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -566,7 +566,7 @@
         <!--Create Habit-->
         <scene sceneID="uTs-pr-7GF">
             <objects>
-                <viewController id="vD9-eM-AD8" customClass="CreateNewHabitViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vD9-eM-AD8" customClass="CreateNewHabitViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TP6-Hb-jJh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -650,7 +650,7 @@
         <!--Create Category-->
         <scene sceneID="Vei-x5-c0u">
             <objects>
-                <viewController id="ytg-X3-NeR" customClass="CreateNewCategoryViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ytg-X3-NeR" customClass="CreateNewCategoryViewController" customModule="BitsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YCi-TY-gqf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -698,6 +698,6 @@
         <image name="yesbite" width="57" height="57"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Hi3-Un-8sf"/>
+        <segue reference="HO5-C1-tUY"/>
     </inferredMetricsTieBreakers>
 </document>

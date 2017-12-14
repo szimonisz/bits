@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import FinalProject
+@testable import BitsApp
 
 class FinalProjectTests: XCTestCase {
     

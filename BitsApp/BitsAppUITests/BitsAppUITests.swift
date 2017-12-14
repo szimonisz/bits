@@ -42,9 +42,6 @@ class FinalProjectUITests: XCTestCase {
         app.navigationBars["Create Category"].buttons["Categories"].tap()
         
         XCTAssertTrue(app.tables.cells.count - originalCategoryCellCount == 1,"Category table did not populate after creation of new category")
-      
-
-        app.tables.children(matching: .cell).element(boundBy: 0).staticTexts["UITESTCATEGORY"].tap()
         
     
    
