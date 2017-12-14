@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="category">
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="habits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Habit" inverseName="category" inverseEntity="Habit" syncable="YES"/>
+    </entity>
+    <entity name="Habit" representedClassName="Habit" syncable="YES" codeGenerationType="category">
+        <attribute name="completed" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="details" attributeType="String" syncable="YES"/>
+        <attribute name="lastCompleted" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="streak" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="String" syncable="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="habits" inverseEntity="Category" syncable="YES"/>
+        <relationship name="highlightImages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HighlightImage" inverseName="habit" inverseEntity="HighlightImage" syncable="YES"/>
+    </entity>
+    <entity name="HighlightImage" representedClassName="HighlightImage" syncable="YES" codeGenerationType="category">
+        <attribute name="data" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="habit" maxCount="1" deletionRule="Nullify" destinationEntity="Habit" inverseName="highlightImages" inverseEntity="Habit" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Habit" positionX="-54" positionY="-9" width="128" height="180"/>
+        <element name="HighlightImage" positionX="-63" positionY="36" width="128" height="75"/>
+    </elements>
+</model>
