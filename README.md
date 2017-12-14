@@ -1,2 +1,10 @@
 # bits
 Habit Developing iPhone App
+
+ Form habits based on tasks defined by the user. Each habit is filed under a category (also defined by the user). A habit is a task, goal, or objective that the user wishes to complete at a daily or weekly rate. For example if the user creates a daily habit, they would access the app daily and record their completion of the task.
+ 
+  The user organizes all of their defined habits in categories. By selecting a category, the user can see a table of all the habits that belong to that category and whether they completed them for that day / week.
+  
+  Selecting an individual habit will display stats based on that task including: when the habit was last completed, the habit success rate (completions/week) or (completions/month), and your current completion streak. The user can also choose to share their current streak of completion for a specific habit by email. The user also has the option of uploading a ‘HighlightImage’ for the specific habit for that day or week(assuming the user completed the habit for that day/week). Lastly, the user can view a ‘HighlightReel’, a display of every ‘HighlightImage’ they have uploaded for the specific habit, organized by upload date.
+  
+  HighlightImages and the HighlightReel is an idea that reinforces the user’s desire to keep up with their habits. Imagine someone wanting to form the habit of cooking a healthy meal everyday. Everytime this user cooks a healthy meal, they check off their habit for the day and take a picture of their meal to store with the habit. Suppose the user is having a lazy day and is feeling reluctant to cook something healthy, contemplating the idea of going out to eat. They open their habit tracking app and by observing their HighlightReel for that habit, they are reminded of how it wasn’t actually that difficult to fix up a healthy meal and end up completing the task for that day. It allows the user to emotionally connect with a specific time that they followed through with a task - increasing their potential of truly forming a habit.
